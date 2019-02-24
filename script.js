@@ -107,10 +107,9 @@ var arr = [
     {name: 'Александрия', value: 4960}
 ];
 
-let c = 'value';
 
 arr.sort(function(a, b){
-    
+    let c = 'value';
     return b[c] - a[c];
 });
 
