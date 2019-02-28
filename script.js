@@ -99,19 +99,6 @@ function count(obj){
     return size;
 }
 
-var arr = [
-    {name: 'Сурат', value: 6200},
-    {name: 'Касабланка', value: 4410},
-    {name: 'Сидней', value: 4410},
-    {name: 'Гонконг', value: 7380},
-    {name: 'Александрия', value: 4960}
-];
-
-
-arr.sort(function(a, b){
-    let c = 'value';
-    return b[c] - a[c];
-});
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
